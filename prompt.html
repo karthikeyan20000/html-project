@@ -1,0 +1,19 @@
+<html>
+<body>
+<h1> The window object </h1>
+<h2> The prompt()  method</h2>
+
+<P> click the button to demonstrate the prompt box. </P>
+<button onclick="myfunction() ">Try it</button>
+<p id="demo"></p>
+<script>
+function myfunction() {
+let person = prompt("please enter  your name", "karthikeyan");
+if (person != null)  {
+document.getElementById("demo").innerHTML =
+"Hello "+ person +" ! how are you today ?";
+}
+}
+</script>
+</body>
+</html>
